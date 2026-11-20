@@ -6,6 +6,8 @@
   <a href="https://www.linkedin.com/in/gerthmay-ashtbell-clair-m-b7086929a"><img src="https://img.shields.io/badge/LinkedIn-conectemos-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 </p>
 
+<p align="center"><b>Español</b> · <a href="#english">English</a></p>
+
 ---
 
 ### Qué hago
@@ -59,3 +61,51 @@ Antes pasé cerca de cinco años en **RRHH, compensación y nómina**. Vengo de 
 ---
 
 <p align="center"><sub>Psicólogo de formación · Data Engineer por elección · Abierto a roles de Data Engineering y Analytics Engineering</sub></p>
+
+---
+
+<a id="english"></a>
+
+<h2 align="center">English</h2>
+<p align="center"><b>Data Engineer · Panama</b><br>I turn manual processes and Excel macros into pipelines and tools that run on their own, can be audited, and don't depend on anyone.</p>
+
+<p align="center">
+  <a href="https://gerthmayac-create.github.io/?lang=en"><img src="https://img.shields.io/badge/Portfolio-see_case_studies-0f1b2d?style=for-the-badge&labelColor=f2a541"></a>
+  <a href="https://www.linkedin.com/in/gerthmay-ashtbell-clair-m-b7086929a"><img src="https://img.shields.io/badge/LinkedIn-let's_connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+</p>
+
+### What I do
+
+I work in data engineering in banking: I take data from Excel, CSV, scanned PDFs and internal systems into a data lake on **Impala/HDFS**, with data contracts, validations and traceability, and I build the desktop tools that operations teams use every day.
+
+Before that I spent close to five years in **HR, compensation and payroll**. I'm a **psychologist** by training: before I move any data, I ask who will use it and what for.
+
+### By the numbers
+
+- **100,000+ lines of Python** in tools and pipelines in production
+- **~130 test files** (pytest, pytest-qt) and CI with GitHub Actions
+- **29 repositories**: pipelines, ETL, automation, desktop apps and BI
+
+The stack is the same one listed above.
+
+### Highlighted cases
+
+> The code of these projects is private for confidentiality. Here is what they solve and how they are built; the details are in the [portfolio](https://gerthmayac-create.github.io/?lang=en).
+
+| Project | What it solves | How |
+|---|---|---|
+| **2015–2019 history unification** | Five years of transactions in CSV and Excel with different formats, which gave wrong numbers when joined | Single 64-column contract, streaming reads, per-file md5 manifest, Parquet → Impala, integration tests |
+| **Excel ingestion into the data lake** | Reports that arrived in Excel and were processed by hand | Date-partitioned load, new columns without breaking the table, all-or-nothing insert, no duplicates, scheduled |
+| **CRM case ETL** | Cases, interactions, orders and visits scattered across the CRM | Modular ETL: read, clean, enrich and load per process |
+| **Automatic customer notifications** | Notices that were put together and sent by hand | Impala query three times a day, rules in YAML, evidence of every send, sending blocked outside production, 50+ test files |
+| **Serverless multi-user management** | A quarterly Excel file shared by a whole team | PyQt6 + SQLite app that syncs through a shared folder, per-person prioritized inbox, approvals, audit trail and dashboard |
+| **OCR for scanned documents** | Renaming and classifying hundreds of PDFs by hand | Viewer + OCR (Tesseract), checkbox reading, table review and undo with history |
+| **Bulk email by workflow** | Bulk replies with templates picked by hand | Automatic template by department and workflow, JSON configuration, full traceability |
+
+### Public project
+
+**[Panama labor market analysis](https://github.com/gerthmayac-create/analisis-mercado-laboral-panama)**: gender pay gap, informality and labor participation with official data (Python, pandas, Matplotlib).
+
+---
+
+<p align="center"><sub>Psychologist by training · Data Engineer by choice · Open to Data Engineering and Analytics Engineering roles</sub></p>
